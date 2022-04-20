@@ -23,6 +23,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zelaznypatyk_rec"
+    },
+    {
+      "name": "Zelaznyjednostronnykilof",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelaznyjednostronnykilof"
+    },
+    {
+      "name": "ZelaznyjednostronnykilofRec",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelaznyjednostronnykilof_rec"
     }
   ],
   "variable_elements": [],
@@ -30,7 +46,8 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabzakladka_1": "Zakladka 1",
-      "item.modysroda.zelaznypatyk": "Iron rod"
+      "item.modysroda.zelaznypatyk": "Iron rod",
+      "item.modysroda.zelaznyjednostronnykilof": "One-sided pickaxe"
     }
   },
   "foldersRoot": {

@@ -11,6 +11,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.modysroda.item.ZelaznypatykItem;
+import net.mcreator.modysroda.item.ZelaznyjednostronnykilofItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -19,6 +20,7 @@ import java.util.ArrayList;
 public class ModysrodaModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item ZELAZNYPATYK = register(new ZelaznypatykItem());
+	public static final Item ZELAZNYJEDNOSTRONNYKILOF = register(new ZelaznyjednostronnykilofItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
