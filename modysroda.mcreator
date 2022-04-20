@@ -7,13 +7,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zakladka_1"
+    },
+    {
+      "name": "Zelaznypatyk",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelaznypatyk"
+    },
+    {
+      "name": "ZelaznypatykRec",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelaznypatyk_rec"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabzakladka_1": "Zakladka 1"
+      "itemGroup.tabzakladka_1": "Zakladka 1",
+      "item.modysroda.zelaznypatyk": "Iron rod"
     }
   },
   "foldersRoot": {
