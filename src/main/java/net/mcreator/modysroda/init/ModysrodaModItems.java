@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.modysroda.item.ZelaznypatykItem;
 import net.mcreator.modysroda.item.ZelaznyjednostronnykilofItem;
+import net.mcreator.modysroda.item.LlamaItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -21,6 +22,7 @@ public class ModysrodaModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item ZELAZNYPATYK = register(new ZelaznypatykItem());
 	public static final Item ZELAZNYJEDNOSTRONNYKILOF = register(new ZelaznyjednostronnykilofItem());
+	public static final Item LLAMA = register(new LlamaItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

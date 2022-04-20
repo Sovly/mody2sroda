@@ -39,6 +39,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zelaznyjednostronnykilof_rec"
+    },
+    {
+      "name": "Llama",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llama"
     }
   ],
   "variable_elements": [],
@@ -47,7 +55,9 @@
     "en_us": {
       "itemGroup.tabzakladka_1": "Zakladka 1",
       "item.modysroda.zelaznypatyk": "Iron rod",
-      "item.modysroda.zelaznyjednostronnykilof": "One-sided pickaxe"
+      "item.modysroda.llama.desc": "LLAMAAAAAAAA!",
+      "item.modysroda.zelaznyjednostronnykilof": "One-sided pickaxe",
+      "item.modysroda.llama": "Llama!?"
     }
   },
   "foldersRoot": {
