@@ -7,13 +7,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zakladka_1"
+    },
+    {
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabzakladka_1": "Zakladka 1"
+      "itemGroup.tabzakladka_1": "Zakladka 1",
+      "item.modysroda.topaz": "Topaz"
     }
   },
   "foldersRoot": {
