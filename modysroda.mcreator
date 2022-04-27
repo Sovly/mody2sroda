@@ -9,6 +9,14 @@
       "registry_name": "zakladka_1"
     },
     {
+
+      "name": "Topaz",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "topaz"
+
       "name": "Kraty",
       "type": "block",
       "sortid": 2,
@@ -31,6 +39,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "metalowafurtka"
+
     }
   ],
   "variable_elements": [],
@@ -38,9 +47,13 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabzakladka_1": "Zakladka 1",
+
+      "item.modysroda.topaz": "Topaz"
+
       "block.modysroda.zarosnietekrary": "Zarosnietekrary",
       "block.modysroda.metalowafurtka": "Metalowafurtka",
       "block.modysroda.kraty": "Kraty"
+
     }
   },
   "foldersRoot": {
