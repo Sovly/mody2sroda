@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "modysroda:blocks/drt",
+    "particle": "modysroda:blocks/drt"
+  }
+}
