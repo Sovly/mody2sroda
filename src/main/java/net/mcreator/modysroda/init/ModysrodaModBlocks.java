@@ -13,6 +13,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.modysroda.block.ZarosnietekraryBlock;
+import net.mcreator.modysroda.block.MetalowafurtkaBlock;
 import net.mcreator.modysroda.block.KratyBlock;
 
 import java.util.List;
@@ -23,6 +24,7 @@ public class ModysrodaModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block KRATY = register(new KratyBlock());
 	public static final Block ZAROSNIETEKRARY = register(new ZarosnietekraryBlock());
+	public static final Block METALOWAFURTKA = register(new MetalowafurtkaBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

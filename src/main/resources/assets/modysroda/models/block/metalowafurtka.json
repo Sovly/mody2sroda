@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modysroda:blocks/drt",
+    "up": "modysroda:blocks/drt",
+    "north": "modysroda:blocks/drt",
+    "east": "modysroda:blocks/drt",
+    "south": "modysroda:blocks/drt",
+    "west": "modysroda:blocks/drt",
+    "particle": "modysroda:blocks/drt"
+  }
+}

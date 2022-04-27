@@ -21,6 +21,7 @@ public class ModysrodaModItems {
 	private static final List<Item> REGISTRY = new ArrayList<>();
 	public static final Item KRATY = register(ModysrodaModBlocks.KRATY, ModysrodaModTabs.TAB_ZAKLADKA_1);
 	public static final Item ZAROSNIETEKRARY = register(ModysrodaModBlocks.ZAROSNIETEKRARY, ModysrodaModTabs.TAB_ZAKLADKA_1);
+	public static final Item METALOWAFURTKA = register(ModysrodaModBlocks.METALOWAFURTKA, ModysrodaModTabs.TAB_ZAKLADKA_1);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

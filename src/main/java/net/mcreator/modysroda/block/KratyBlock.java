@@ -9,7 +9,7 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.FenceGateBlock;
+import net.minecraft.world.level.block.FenceBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
@@ -21,9 +21,9 @@ import net.mcreator.modysroda.init.ModysrodaModBlocks;
 import java.util.List;
 import java.util.Collections;
 
-public class KratyBlock extends FenceGateBlock {
+public class KratyBlock extends FenceBlock {
 	public KratyBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		setRegistryName("kraty");
 	}
