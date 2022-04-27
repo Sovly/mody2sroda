@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.modysroda.block.ZarosnietekraryBlock;
 import net.mcreator.modysroda.block.KratyBlock;
 
 import java.util.List;
@@ -21,6 +22,7 @@ import java.util.ArrayList;
 public class ModysrodaModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block KRATY = register(new KratyBlock());
+	public static final Block ZAROSNIETEKRARY = register(new ZarosnietekraryBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -37,6 +39,7 @@ public class ModysrodaModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			KratyBlock.registerRenderLayer();
+			ZarosnietekraryBlock.registerRenderLayer();
 		}
 	}
 }

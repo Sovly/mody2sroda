@@ -15,6 +15,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "kraty"
+    },
+    {
+      "name": "Zarosnietekrary",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zarosnietekrary"
     }
   ],
   "variable_elements": [],
@@ -22,6 +30,7 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabzakladka_1": "Zakladka 1",
+      "block.modysroda.zarosnietekrary": "Zarosnietekrary",
       "block.modysroda.kraty": "Kraty"
     }
   },

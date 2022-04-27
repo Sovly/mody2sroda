@@ -2,7 +2,7 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "drt",
+    "texture": "exgr",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -15,7 +15,7 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "FenceGate",
+    "blockBase": "Fence",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Kraty",
+    "name": "Zarosnietekrary",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
