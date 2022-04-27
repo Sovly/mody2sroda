@@ -47,6 +47,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "llama"
+    },
+    {
+      "name": "InfekcjaPinormOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infekcja_pinorm_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfekcjaPinorm",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infekcja_pinorm"
+    },
+    {
+      "name": "PinwormReason",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinworm_reason",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -56,6 +96,7 @@
       "itemGroup.tabzakladka_1": "Zakladka 1",
       "item.modysroda.zelaznypatyk": "Iron rod",
       "item.modysroda.llama.desc": "LLAMAAAAAAAA!",
+      "effect.modysroda.infekcja_pinorm": "Pinworm Infection",
       "item.modysroda.zelaznyjednostronnykilof": "One-sided pickaxe",
       "item.modysroda.llama": "Llama!?"
     }
