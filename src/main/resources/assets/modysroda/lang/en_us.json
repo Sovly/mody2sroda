@@ -1,5 +1,12 @@
 {
   "itemGroup.tabzakladka_1": "Zakladka 1",
+
+  "item.modysroda.zelaznypatyk": "Iron rod",
+  "item.modysroda.llama.desc": "LLAMAAAAAAAA!",
+  "effect.modysroda.infekcja_pinorm": "Pinworm Infection",
+  "item.modysroda.zelaznyjednostronnykilof": "One-sided pickaxe",
+  "item.modysroda.llama": "Llama!?"
+
   "item.modysroda.topaz": "Topaz",
   "block.modysroda.zarosnietekrary": "Zarosnietekrary",
   "block.modysroda.metalowafurtka": "Metalowafurtka",

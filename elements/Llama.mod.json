@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "llamadisc",
+    "name": "Llama!?",
+    "description": "LLAMAAAAAAAA!",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "entity.llama.spit"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

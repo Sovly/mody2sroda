@@ -10,11 +10,90 @@
     },
     {
 
+      "name": "Zelaznypatyk",
+
+
       "name": "Topaz",
+
       "type": "item",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
+
+      "registry_name": "zelaznypatyk"
+    },
+    {
+      "name": "ZelaznypatykRec",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelaznypatyk_rec"
+    },
+    {
+      "name": "Zelaznyjednostronnykilof",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelaznyjednostronnykilof"
+    },
+    {
+      "name": "ZelaznyjednostronnykilofRec",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelaznyjednostronnykilof_rec"
+    },
+    {
+      "name": "Llama",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llama"
+    },
+    {
+      "name": "InfekcjaPinormOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infekcja_pinorm_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InfekcjaPinorm",
+      "type": "potioneffect",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infekcja_pinorm"
+    },
+    {
+      "name": "PinwormReason",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinworm_reason",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+
       "registry_name": "topaz"
 
       "name": "Kraty",
@@ -40,6 +119,7 @@
       "locked_code": false,
       "registry_name": "metalowafurtka"
 
+
     }
   ],
   "variable_elements": [],
@@ -48,11 +128,19 @@
     "en_us": {
       "itemGroup.tabzakladka_1": "Zakladka 1",
 
+      "item.modysroda.zelaznypatyk": "Iron rod",
+      "item.modysroda.llama.desc": "LLAMAAAAAAAA!",
+      "effect.modysroda.infekcja_pinorm": "Pinworm Infection",
+      "item.modysroda.zelaznyjednostronnykilof": "One-sided pickaxe",
+      "item.modysroda.llama": "Llama!?"
+
+
       "item.modysroda.topaz": "Topaz"
 
       "block.modysroda.zarosnietekrary": "Zarosnietekrary",
       "block.modysroda.metalowafurtka": "Metalowafurtka",
       "block.modysroda.kraty": "Kraty"
+
 
     }
   },
