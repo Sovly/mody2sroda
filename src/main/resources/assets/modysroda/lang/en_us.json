@@ -1,4 +1,8 @@
 {
   "itemGroup.tabzakladka_1": "Zakladka 1",
-  "item.modysroda.topaz": "Topaz"
+  "item.modysroda.topaz": "Topaz",
+  "block.modysroda.zarosnietekrary": "Zarosnietekrary",
+  "block.modysroda.metalowafurtka": "Metalowafurtka",
+  "block.modysroda.kraty": "Kraty"
+
 }
