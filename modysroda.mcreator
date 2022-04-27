@@ -23,6 +23,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "zarosnietekrary"
+    },
+    {
+      "name": "Metalowafurtka",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metalowafurtka"
     }
   ],
   "variable_elements": [],
@@ -31,6 +39,7 @@
     "en_us": {
       "itemGroup.tabzakladka_1": "Zakladka 1",
       "block.modysroda.zarosnietekrary": "Zarosnietekrary",
+      "block.modysroda.metalowafurtka": "Metalowafurtka",
       "block.modysroda.kraty": "Kraty"
     }
   },
